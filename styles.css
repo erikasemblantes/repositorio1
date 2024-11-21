@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header,
+footer{
+    background-color: rgb(106, 175, 180);
+    color: rgb(114, 38, 47);
+    text-align: center;
+    padding: 20px;
+    text-anchor: middle;
+
+}
+
+main{
+    padding: 20px; 
+    text-align: center;
+}
+div.contenedor2{
+    color: rgb(24, 10, 68);
+ 
+}
