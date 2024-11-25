@@ -1,22 +1,31 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(194, 240, 240);
+    
 }
 
 header,
 footer{
-    background-color: rgb(106, 175, 180);
-    color: rgb(114, 38, 47);
+    background-color: rgb(138, 126, 183);
+    background-image: linear-gradient(rgb(16, 17, 18), rgb(192, 237, 133)) ;
+    color: rgb(144, 15, 26);
     text-align: center;
-    padding: 20px;
+    padding: 18px;
     text-anchor: middle;
 
 }
+
 
 main{
     padding: 20px; 
     text-align: center;
 }
 div.contenedor2{
-    color: rgb(24, 10, 68);
+    color: rgb(63, 31, 171);
  
 }
+img {
+    pointer-events: all;
+
+}
+
