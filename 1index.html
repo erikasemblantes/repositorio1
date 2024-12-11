@@ -36,8 +36,9 @@
                     <p>Div de prueba 2</p>
                 </div>
             </div>
-            <button class="btn btn-success" >Cambiar Color 1</button>
-            <button class="btn btn-danger" >Cambiar Color 2</button>
+            <button class="btn btn-success" onclick="cambiarcolor('color1', 'green', 'color2')">Cambiar Color 1</button>
+             <button class="btn btn-danger"onclick="cambiarcolor('color2','red', 'color1')">Cambiar Color 2</button>
+            <br>
 
         </footer>
 
@@ -90,10 +91,12 @@
             const texto = document.querySelector ('.card-text')
             texto.textContent= "este es el nuevo contenido generado desde js" }
 
-            function cambiarcolor(idElemento, color) {
-            const elemento = document.getElementById(idElemento);
-            elemento.style.backgroundColor = color; 
-        }
+           function cambiarcolor(idElemento, color, idElemento2){
+            const d = document.getElementById(idElemento);
+            const e = document.getElementById(idElemento2)
+            d.style.backgroundColor = color;
+            e.style.backgroundColor = 'transparent';
+    }
 
          
     </script>
